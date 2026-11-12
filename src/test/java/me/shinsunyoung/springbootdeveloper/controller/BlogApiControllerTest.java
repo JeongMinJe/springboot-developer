@@ -106,7 +106,7 @@ class BlogApiControllerTest {
         // given
         final String url = "/api/articles/{id}";
         final String title = "title";
-        final String content = "/content";
+        final String content = "content";
 
         Article savedArticle = blogRepository.save(Article.builder()
                 .title(title)
