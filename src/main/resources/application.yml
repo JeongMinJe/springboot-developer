@@ -15,3 +15,7 @@ spring:
   h2: # H2 콘솔 활성화
     console:
       enabled: true
+  ai:
+    openai:
+      # 공개 레포에 키가 올라가지 않도록 환경변수에서 읽는다
+      api-key: ${OPENAI_API_KEY}
